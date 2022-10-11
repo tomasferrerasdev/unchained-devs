@@ -1,5 +1,6 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Head from 'next/head';
+import { Navbar } from '../ui';
 
 interface Props {
   title: string;
@@ -23,16 +24,14 @@ export const Layout: FC<Props> = ({
         <meta property="og:description" content={description} />
         {imageFullUrl && <meta name="og:image" content={imageFullUrl} />}
 
-        <meta name="robots" content="noindex, nofollow" />
         <link rel="canonical" href="https://example.com/example" />
         <meta property="og:url" content="https://example.com/example" />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Unchained Devs_" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <nav>Navbar</nav>
+      <Navbar />
       <main>{children}</main>
-      <footer>Footer</footer>
     </>
   );
 };

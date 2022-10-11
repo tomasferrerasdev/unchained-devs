@@ -1,0 +1,22 @@
+.link > span {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.link span::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+  margin: -5px 0;
+  left: 0;
+  background-color: #171717;
+  transition: all 0.3s ease-in 0s;
+}
+
+.link span:hover::after {
+  width: 100%;
+}

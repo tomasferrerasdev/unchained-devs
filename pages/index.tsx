@@ -8,9 +8,7 @@ const Home: NextPage = () => {
       description={
         'We are a group of software developers helping aspiring developers who are either formerly incarcerated or from an economically disadvantaged background. We are creating opportunities in tech for people who might not otherwise get an opportunity.'
       }
-    >
-      <h1>HOME</h1>
-    </Layout>
+    ></Layout>
   );
 };
 

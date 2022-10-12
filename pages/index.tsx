@@ -1,6 +1,13 @@
 import { Container } from '@mui/material';
 import type { NextPage } from 'next';
-import { Hero, Layout, Recidivism } from '../components';
+import {
+  Hero,
+  Layout,
+  Mentee,
+  Mentor,
+  Recidivism,
+  Unemployment,
+} from '../components';
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +20,10 @@ const Home: NextPage = () => {
       <Container maxWidth={'xl'} disableGutters={true}>
         <Hero />
         <Recidivism />
+        <Unemployment />
       </Container>
+      <Mentee />
+      <Mentor />
     </Layout>
   );
 };

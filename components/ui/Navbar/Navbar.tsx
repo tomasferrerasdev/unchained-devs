@@ -38,6 +38,7 @@ export const Navbar = () => {
                   width={242}
                   height={78}
                   alt="unchained devs logo"
+                  priority
                 />
               </Link>
             </NextLink>

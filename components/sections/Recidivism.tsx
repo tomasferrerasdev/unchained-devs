@@ -31,10 +31,9 @@ export const Recidivism = () => {
             83% of released prisoners were arrested within 9 years.
           </ListItem>
         </List>
-        <Typography variant="body2" fontWeight={800}>
-          recidivism and reentry on{' '}
-          <span className="underline">prisonpolicy.org</span> recidivism the
-          ultimate guide on <span className="underline">prisoninsight.com</span>
+        <Typography variant="body2" fontWeight={800} className="underline">
+          recidivism and reentry on <span>prisonpolicy.org</span> recidivism the
+          ultimate guide on <span>prisoninsight.com</span>
         </Typography>
       </Grid>
     </Grid>

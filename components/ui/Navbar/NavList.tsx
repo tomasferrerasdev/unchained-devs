@@ -4,8 +4,8 @@ import { Box } from '@mui/material';
 
 const navLinks = [
   {
-    href: 'our-mission',
-    text: 'Our mission',
+    href: 'become-a-mentee',
+    text: 'Become a mentee',
   },
   {
     href: 'become-a-mentor',

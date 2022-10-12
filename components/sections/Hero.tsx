@@ -9,7 +9,7 @@ export const Hero = () => {
         container
         spacing={3}
         height="calc(100vh - 140px)"
-        padding={1}
+        p={1}
         justifyContent="space-between"
         className="section"
       >
@@ -34,6 +34,7 @@ export const Hero = () => {
             <NextLink href="/ " passHref>
               <Link color="secondary">
                 <Typography
+                  fontSize={26}
                   fontWeight={800}
                   sx={{
                     textDecoration: 'underline',
@@ -58,6 +59,7 @@ export const Hero = () => {
               layout="fill"
               objectFit="cover"
               alt="people image"
+              priority
             />
           </Box>
         </Grid>

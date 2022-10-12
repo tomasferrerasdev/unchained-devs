@@ -36,7 +36,6 @@ export const Hero = () => {
                 <Typography
                   fontWeight={800}
                   sx={{
-                    fontSize: { xs: '24px', sm: '32px' },
                     textDecoration: 'underline',
                     textDecorationColor: '#FF9900',
                   }}

@@ -34,7 +34,7 @@ export const lightTheme = createTheme({
       },
       styleOverrides: {
         root: {
-          height: 140,
+          height: 100,
         },
       },
     },
@@ -62,3 +62,19 @@ export const lightTheme = createTheme({
     },
   },
 });
+
+lightTheme.typography.h1 = {
+  fontSize: '48px',
+  fontWeight: 800,
+  [lightTheme.breakpoints.up('md')]: {
+    fontSize: '96px',
+  },
+};
+
+lightTheme.typography.body2 = {
+  fontSize: '16px',
+  fontWeight: 400,
+  [lightTheme.breakpoints.up('md')]: {
+    fontSize: '24px',
+  },
+};

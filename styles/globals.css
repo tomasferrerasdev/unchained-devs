@@ -13,10 +13,20 @@
   height: 2px;
   margin: -5px 0;
   left: 0;
-  background-color: #171717;
+  background-color: #ff9900;
   transition: all 0.3s ease-in 0s;
 }
 
 .link span:hover::after {
   width: 100%;
+}
+
+.section {
+  max-height: 768px;
+  margin-bottom: 8rem;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
 }

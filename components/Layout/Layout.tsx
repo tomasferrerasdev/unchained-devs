@@ -31,7 +31,7 @@ export const Layout: FC<Props> = ({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navbar />
-      <main style={{ paddingTop: '140px' }}>{children}</main>
+      <main style={{ paddingTop: '100px' }}>{children}</main>
       <Footer />
     </>
   );

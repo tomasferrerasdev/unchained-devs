@@ -1,5 +1,6 @@
 {
   "name": "unchained-devs",
+  "homepage": "https://tomasferrerasdev.github.io/unchained-devs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,17 +11,11 @@
     "prettier": "prettier --write .",
     "prepare": "husky install"
   },
-  "engines": {
-    "node": ">=14.0.0",
-    "yarn": ">=1.22.0",
-    "npm": "please-use-yarn"
-  },
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.9",
-    "gh-pages": "^4.0.0",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

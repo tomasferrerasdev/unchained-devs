@@ -34,7 +34,7 @@ export const DonateInfo = () => {
         <span className="bold">Routing number:</span> 084106768
       </Typography>
       <Box
-        sx={{ backgroundColor: '#FF9900', height: '53px' }}
+        sx={{ backgroundColor: '#FF9900', height: '53px', cursor: 'pointer' }}
         display="flex"
         justifyContent="center"
         alignItems="center"

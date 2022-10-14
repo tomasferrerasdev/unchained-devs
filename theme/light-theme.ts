@@ -60,6 +60,30 @@ export const lightTheme = createTheme({
         },
       },
     },
+    MuiRadio: {
+      defaultProps: {
+        color: 'secondary',
+      },
+    },
+    MuiTextField: {
+      defaultProps: {
+        size: 'small',
+        variant: 'outlined',
+        fullWidth: true,
+      },
+      styleOverrides: {
+        root: {
+          color: '#B8B8B8',
+        },
+      },
+    },
+    MuiInputBase: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#E1E1E1',
+        },
+      },
+    },
   },
 });
 

@@ -4,23 +4,23 @@ import { Box } from '@mui/material';
 
 const navLinks = [
   {
-    href: 'become-a-mentee',
+    href: '/become/mentee',
     text: 'Become a mentee',
   },
   {
-    href: 'become-a-mentor',
+    href: '/become/mentor',
     text: 'Become a mentor',
   },
   {
-    href: 'donate',
+    href: '/donate',
     text: 'Donate',
   },
   {
-    href: 'contact-us',
+    href: '/contact-us',
     text: 'Contact Us',
   },
   {
-    href: 'merchandise',
+    href: 'https://unbridled-spirits.herokuapp.com/category/unchained-devs',
     text: 'Merchandise',
   },
 ];
@@ -29,13 +29,25 @@ export const NavList = () => {
   return (
     <>
       <Box display="flex" alignItems="center" gap={1.5}>
-        {navLinks.map((link, index) => (
-          <NextLink href={link.href} passHref key={index}>
-            <Link fontSize={20} color="secondary" className="link">
+        {navLinks.map((link, index) =>
+          link.text === 'Merchandise' ? (
+            <Link
+              fontSize={20}
+              href={link.href}
+              color="secondary"
+              className="link"
+              target="_blank"
+            >
               <span>{link.text}</span>
             </Link>
-          </NextLink>
-        ))}
+          ) : (
+            <NextLink href={link.href} passHref key={index}>
+              <Link fontSize={20} color="secondary" className="link">
+                <span>{link.text}</span>
+              </Link>
+            </NextLink>
+          )
+        )}
       </Box>
     </>
   );

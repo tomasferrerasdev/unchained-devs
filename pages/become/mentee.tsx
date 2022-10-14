@@ -1,10 +1,11 @@
 import { Container, Box, Typography } from '@mui/material';
-import { Layout, MentorForm } from '../../components';
+import { NextPage } from 'next';
+import { Layout, MenteeForm } from '../../components';
 
-const mentor = () => {
+const mentee: NextPage = () => {
   return (
     <Layout
-      title={'Unchained Devs_ / Mentor'}
+      title={'Unchained Devs_ / Mentee'}
       description={
         'We are a group of software developers helping aspiring developers who are either formerly incarcerated or from an economically disadvantaged background. We are creating opportunities in tech for people who might not otherwise get an opportunity.'
       }
@@ -17,13 +18,13 @@ const mentor = () => {
             mb={3}
             sx={{ textDecoration: 'underline', textDecorationColor: '#FF9900' }}
           >
-            Become a Mentor
+            Become a Mentee
           </Typography>
-          <MentorForm />
+          <MenteeForm />
         </Box>
       </Container>
     </Layout>
   );
 };
 
-export default mentor;
+export default mentee;

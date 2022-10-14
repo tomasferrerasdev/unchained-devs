@@ -28,6 +28,13 @@ export const lightTheme = createTheme({
     },
   },
   components: {
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#FF9900',
+        },
+      },
+    },
     MuiAppBar: {
       defaultProps: {
         elevation: 0,

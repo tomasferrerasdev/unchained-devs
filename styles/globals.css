@@ -1,5 +1,11 @@
 html {
-  overflow-y: overlay;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 760) {
+  html {
+    overflow-y: overlay;
+  }
 }
 
 .link > span {

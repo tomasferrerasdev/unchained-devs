@@ -14,7 +14,7 @@ interface Props {
 
 export const FormRadio: FC<Props> = ({ options, label }) => {
   return (
-    <Grid item xs={8}>
+    <Grid item xs={12} md={8}>
       <Typography variant="body2" fontWeight={500} mb={0.5}>
         {label}
       </Typography>

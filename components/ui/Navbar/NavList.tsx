@@ -1,29 +1,7 @@
 import NextLink from 'next/link';
 import { Link } from '@mui/material';
 import { Box } from '@mui/material';
-
-const navLinks = [
-  {
-    href: '/become/mentee',
-    text: 'Become a mentee',
-  },
-  {
-    href: '/become/mentor',
-    text: 'Become a mentor',
-  },
-  {
-    href: '/donate',
-    text: 'Donate',
-  },
-  {
-    href: '/contact',
-    text: 'Contact Us',
-  },
-  {
-    href: 'https://unbridled-spirits.herokuapp.com/category/unchained-devs',
-    text: 'Merchandise',
-  },
-];
+import { navLinks } from './navItems';
 
 export const NavList = () => {
   return (

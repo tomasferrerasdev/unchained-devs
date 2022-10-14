@@ -8,7 +8,7 @@ interface Props {
 
 export const FormInput: FC<Props> = ({ label, size }) => {
   return (
-    <Grid item xs={size}>
+    <Grid item xs={12} md={size}>
       <Typography variant="body2" fontWeight={500} mb={0.5}>
         {label}
       </Typography>

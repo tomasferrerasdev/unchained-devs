@@ -16,7 +16,7 @@ const navLinks = [
     text: 'Donate',
   },
   {
-    href: '/contact-us',
+    href: '/contact',
     text: 'Contact Us',
   },
   {
@@ -32,6 +32,7 @@ export const NavList = () => {
         {navLinks.map((link, index) =>
           link.text === 'Merchandise' ? (
             <Link
+              key={index}
               fontSize={20}
               href={link.href}
               color="secondary"

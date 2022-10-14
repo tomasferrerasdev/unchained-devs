@@ -19,10 +19,6 @@ export const techStack = [
     value: 'backend',
   },
   {
-    optionLabel: 'Frontent',
-    value: 'frontend',
-  },
-  {
     optionLabel: 'Fullstack',
     value: 'fullstack',
   },

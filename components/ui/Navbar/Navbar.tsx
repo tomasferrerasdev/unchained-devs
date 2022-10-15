@@ -15,10 +15,9 @@ import {
   ListItemText,
   Typography,
 } from '@mui/material';
+import { CloseOutlined, MenuOutlined } from '@mui/icons-material';
 
 import { navLinks } from './navItems';
-
-import { CloseOutlined, MenuOutlined } from '@mui/icons-material';
 import { NavList } from './NavList';
 
 export const Navbar = () => {
